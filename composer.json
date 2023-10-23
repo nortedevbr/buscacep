@@ -1,0 +1,29 @@
+{
+  "name": "nortedevbr/buscacep",
+  "description": "SDK de integração com o sistema de busca de CEPs dos Correios do Brasil",
+  "minimum-stability": "stable",
+  "license": "MIT",
+  "homepage": "https://norte.dev.br",
+  "authors": [
+    {
+      "name": "Alessandro P. Souza",
+      "email": "alessandro-design@hotmail.com",
+      "role": "Developer",
+      "homepage": "https://www.alessandrodesign.com.br"
+    }
+  ],
+  "config": {
+    "vendor-dir": "vendor"
+  },
+  "autoload": {
+    "psr-4": {
+      "nortedevbr\\": "src"
+    },
+    "files": [
+      "src/Helpers/Supports.php"
+    ]
+  },
+  "require": {
+    "php": "^7.4 || ^8.0"
+  }
+}
